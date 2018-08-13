@@ -36,18 +36,17 @@
 }
 .logo-bg{
   animation-name: fab;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 @keyframes fab {
   0%{
-    background-color: black;
+    background-color: orange;
+    color:black;
   }
   50%{
-    background-color: white;
-  }
-  100%{
     background-color: black;
+    color:orange;
   }
 }
 body{
